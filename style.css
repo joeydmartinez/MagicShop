@@ -1,0 +1,56 @@
+h1{
+  text-allign: center;
+  animation: changeHeading 3s infinite;
+}
+
+@keyframes changeHeading{
+  0%{color:  ;}
+  25%{color:  ;}
+  50%{color:  ;}
+  75%{color:  ;}
+  100%{color:  ;}
+}
+
+img{
+  width:300px
+}
+body{
+  margin: 6em;
+  background-color: DarkSeaGreen;
+  color: Sienna;
+  font-family: 'Roboto Mono', monospace;
+font-family: 'Ubuntu', sans-serif;
+   
+}
+
+section{
+  display: flex;
+}
+figure{
+  display: flex;
+  align-self: flex-start;
+  position: sticky;
+  top: 1rem;
+}
+
+/*Watch*/
+.watch {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/231a.png) 36 36, auto;
+}
+
+/*Star*/
+.star {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/2b50.png) 36 36, auto;
+}
+
+/*Money*/
+.money {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f4b0.png) 36 36, auto;
+}
+
+button{
+  background-color:Sienna;
+  color:DarkSeaGreen;
+  font-family: 'Ubuntu', sans-serif;
+  padding:10px
+}
